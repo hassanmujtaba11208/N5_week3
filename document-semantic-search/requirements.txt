@@ -1,0 +1,15 @@
+# Core pipeline
+pymupdf>=1.24.3
+sentence-transformers>=3.0.0
+chromadb>=1.0.0
+numpy>=1.26
+pandas>=2.0
+
+# User interface
+streamlit>=1.40
+
+# Tests
+pytest>=8.0
+
+# Only needed to rebuild the sample PDFs (scripts/generate_sample_documents.py)
+reportlab>=4.0
